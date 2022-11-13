@@ -1,0 +1,36 @@
+{
+  "name": "coinbase-blockchain-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@3rdweb/hooks": "^1.9.2",
+    "@3rdweb/react": "^1.9.3",
+    "@3rdweb/sdk": "^1.42.1",
+    "@sanity/client": "^3.4.1",
+    "@sanity/image-url": "^1.0.1",
+    "@thirdweb-dev/react": "^3.5.1",
+    "@thirdweb-dev/sdk": "^3.5.1",
+    "chart.js": "^3.9.1",
+    "ethers": "^5.7.2",
+    "next": "12.3.1",
+    "ng2-charts": "^4.0.1",
+    "react": "18.2.0",
+    "react-chartjs-2": "^4.3.1",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.6.0",
+    "react-loader-spinner": "^5.3.4",
+    "react-modal": "^3.16.1",
+    "react-spinner-loader": "^1.1.1",
+    "styled-components": "^5.3.6"
+  },
+  "devDependencies": {
+    "eslint": "8.25.0",
+    "eslint-config-next": "12.3.1"
+  }
+}
