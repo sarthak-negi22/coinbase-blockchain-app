@@ -9,9 +9,9 @@ import BalanceChart from './BalanceChart'
 
 const Portfolio = ({thirdWebTokens, sanityTokens, walletAddress}) => {
 
-  // console.log(thirdWebTokens,"hello from portfolio")
-  // console.log(sanityTokens,'sanityTokens from portfolio')
-  // console.log(walletAddress,'walletAddress from portfolio')
+  console.log(thirdWebTokens,"hello from portfolio")
+  console.log(sanityTokens,'sanityTokens from portfolio')
+  console.log(walletAddress,'walletAddress from portfolio')
   // thirdWebTokens[0].balanceOf(walletAddress).then(balance => console.log(balance))
   
   const [walletBalance, setWalletBalance] = useState(0)
