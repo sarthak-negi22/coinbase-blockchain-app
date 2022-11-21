@@ -40,8 +40,8 @@ const Dashboard = ({address}) => {
     getSanityAndThirdWebTokens()
   }, [])
 
-  // console.log('Sanity tokens:',sanityTokens)
-  // console.log('ThirdWeb:',thirdWebTokens)
+  console.log('Sanity tokens from dashboard:',sanityTokens)
+  console.log('ThirdWeb from dashboard:',thirdWebTokens)
   return (<Wrapper>
     <Sidebar/>
     <MainContainer>

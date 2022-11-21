@@ -17,12 +17,12 @@ const Transfer = ({selectedToken, setAction, thirdWebTokens, walletAddress}) => 
       token => token.address === selectedToken.contractAddress
       )
 
-      // console.log(activeToken, "")
+      console.log(activeToken, "")
       setActiveThirdWebToken(activeToken)
   },[thirdWebTokens, selectedToken])
 
     useEffect(() => {
-        // console.log(selectedToken,"selected token working")
+        console.log(selectedToken,"selected token working")
         const url = imageUrlBuilder(client).image(selectedToken.logo).url()
         setImageUrl(url)
        
