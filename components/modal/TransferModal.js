@@ -10,7 +10,7 @@ const TransferModal = ({sanityTokens, thirdWebTokens, walletAddress}) => {
     const [action, setAction] = useState('send')
     const [selectedToken, setSelectedToken] = useState(sanityTokens[0])
 
-    // console.log(sanityTokens,"sanity tokens from transfer modal")
+    console.log(sanityTokens,"sanity tokens from transfer modal")
     
     const selectedStyle = {
         color: '#3773f5'
