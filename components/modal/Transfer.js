@@ -15,7 +15,7 @@ const Transfer = ({selectedToken, setAction, thirdWebTokens, walletAddress}) => 
 
   useEffect(() => {
     const activeToken = thirdWebTokens.find(
-      token => token.address === selectedToken.contractAddress
+      token => token.address === selectedToken.contractAddressk
       )
 
       console.log(activeToken, "")
